@@ -118,5 +118,5 @@ TIDYdataset <- dataset %>%
 
 
 # Write to text file
-write.table(TIDYdataset, "TIDYdataset.txt")
+write.table(TIDYdataset, "TIDYdataset.txt", row.names = FALSE)
 
